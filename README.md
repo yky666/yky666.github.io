@@ -1,72 +1,80 @@
-![Github Forks](https://img.shields.io/github/forks/Yixin0313/personal-homepage-template?style=flat)
-![Github Stars](https://img.shields.io/github/stars/Yixin0313/personal-homepage-template?style=flat)
-![License](https://img.shields.io/github/license/Yixin0313/personal-homepage-template)
+<div align="center">
+  <h1>Hi there, I'm Kaiyuan Yang (杨开元) 👋</h1>
+  
+  <p>
+    <b>Embodied AI Researcher</b> 🤖 | <b>Robotics Engineer</b> ⚙️ | <b>Open Source Enthusiast</b> 🌟
+  </p>
 
-# 通用个人主页模板：适用于学术和求职场景 | A general-purpose template: suitable for both academic and professional use.
+  <a href="https://www.sysu.edu.cn/">
+    <img src="https://img.shields.io/badge/University-Sun%20Yat--sen%20University-green?style=flat-square&logo=school" alt="SYSU">
+  </a>
+  <a href="https://lemondan.github.io/">
+    <img src="https://img.shields.io/badge/Lab-General%20Embodied%20Intelligence%20Center-blue?style=flat-square" alt="Lab">
+  </a>
+  <a href="mailto:yangky29@mail2.sysu.edu.cn">
+    <img src="https://img.shields.io/badge/Email-yangky29%40mail2.sysu.edu.cn-red?style=flat-square&logo=gmail" alt="Email">
+  </a>
+</div>
 
-## 预览 | Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/Yixin0313/personal-homepage-template/main/screenshot_full.png)](https://yixin0313.github.io/personal-homepage-template/)
+---
 
-## 介绍 | Introduction
+### 👨‍🎓 About Me
 
-这是一个**通用的个人主页模板**，基于 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io) 进行修改。  
+[cite_start]I am a second-year undergraduate student majoring in **Intelligent Science and Technology** at the **School of Intelligent Systems Engineering**, **Sun Yat-sen University (SYSU)**[cite: 10, 11, 12].
 
-我新增了**工作经历板块**，使其更加适用于程序员和求职者。并且使用了中英文对照版本。
+I am currently a research member at the **General Embodied Intelligence Center** (通用具身智能中心), supervised by [**Prof. [cite_start]Xiaodan Liang**](https://lemondan.github.io/)[cite: 16]. My research passion lies in bridging the gap between high-level AI cognition and low-level robotic control.
 
-This is a **general-purpose personal website template**, modified from [Sen Li's academic template](https://github.com/senli1073/senli1073.github.io).  
+**🚀 Research Interests:**
+* **Embodied AI:** Vision-Language-Action (VLA) Models, World Models.
+* [cite_start]**Robot Control:** Whole-Body Control (WBC), Model Predictive Control (MPC), Sim2Real Transfer[cite: 21, 95, 96].
+* [cite_start]**Platforms:** Humanoid Robots (Unitree G1), Quadruped Robots, Drones[cite: 21, 22].
 
-I have added a **work experience section**, making it more practical for programmers and job seekers.
+---
 
-Bilibili教程视频：【【2025最新保姆级教程】手把手教你用github制作个人主页（申学找工作必备）】https://www.bilibili.com/video/BV16nNMeFEzm?vd_source=79b688b1a191b9f9e8204aa1c3d0adab
+### 🔥 News
+* **[2025.12]** 🎉 Exciting news! Our project *"Research on Whole-Body Collaborative Control and Task Understanding for Humanoid Robots"* has been selected as a **Provincial-level Innovation Training Program**. I will serve as the Project Leader[cite: 5, 6, 21].
+* [cite_start]**[2025.06]** 🥉 Won the **3rd Prize** in the Provincial "X-Wing" UAV Innovation Competition[cite: 22].
 
-CSDN教程：https://blog.csdn.net/qq_45743991/article/details/145505150?spm=1001.2014.3001.5502
+---
 
-## 快速开始 | Getting Start
-### 1. Fork 该仓库 | Fork this repository
-仓库名称应命名为 `<用户名>.github.io`，这样你的个人网站地址将是 `https://<用户名>.github.io/`。
+### 💻 Tech Stack & Tools
 
-The repository name should be `<username>.github.io`, which will also be your website's URL.
+| **Robotics** | **AI & Learning** | **Simulation** | **Languages** |
+| :---: | :---: | :---: | :---: |
+| ![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?style=flat-square&logo=ros) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch) | ![Isaac Gym](https://img.shields.io/badge/NVIDIA-Isaac%20Gym-76B900?style=flat-square&logo=nvidia) | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B) |
+| ![Unitree SDK](https://img.shields.io/badge/SDK-Unitree-orange?style=flat-square) | ![RL](https://img.shields.io/badge/Algo-Reinforcement%20Learning-blueviolet?style=flat-square) | ![MuJoCo](https://img.shields.io/badge/Sim-MuJoCo-blue?style=flat-square) | ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python) |
 
+---
 
-### 2.  编辑页面内容 | Edit page content
-(1) 进入你想存放项目的文件夹，并克隆新的仓库 | Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-项目的目录结构如下 | The directory structure is as follows:
+### 🛠️ Selected Projects
 
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
-```
+#### 🤖 **Humanoid-VLA-Control: Whole-Body Control & Task Understanding**
+*Project Leader | Provincial Innovation Training Program | 2025.12 - Present*
+> **Objective:** Bridging the "Semantic-Control Gap" for the **Unitree G1** humanoid robot.
+* [cite_start]**Architecture:** Proposed a hierarchical framework combining **VLM (Qwen-VL)** for high-level planning and **MPC/WBC** for low-level dynamic execution[cite: 21, 93, 94].
+* **Sim2Real:** Building high-fidelity simulation environments in **Isaac Gym** with domain randomization to achieve robust transfer to the physical world[cite: 96, 228].
+* [cite_start]**Hardware:** Unitree G1 Education, Inspire-Robotics Dexterous Hands, OptiTrack Motion Capture[cite: 21, 400].
 
-(2) 修改各个板块的内容 | Modify the content of each section, which corresponds to `contents/*.md`.
+#### 🐕 **Quadruped-RL: Reinforcement Learning for Locomotion**
+*Research Assistant | 2024 - 2025*
+* [cite_start]**Contribution:** Deployed RL training pipelines for quadrupedal robots using Isaac Gym[cite: 22].
+* **Outcome:** Investigated robust gait generation and successfully deployed policies from simulation to reality (Sim2Real)[cite: 22].
 
-(3) 调整网站设置 | Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+#### 🚁 **X-Wing: Multi-modal UAV System**
+*Core Member | Provincial 3rd Prize | 2025*
+* [cite_start]**Contribution:** Led the integration of flight control algorithms with FPV interactive systems and implemented multi-modal perception fusion[cite: 22].
 
-(4) 替换图片 | Replace background image and photo with new ones for your web pages in `static/assets/img/`
+---
 
-(5) 提交更改 | Push it: 
-```
-git commit -am 'init'
-git push
-```
+### 📊 GitHub Stats
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=minimal&hide_border=true" height="150" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=minimal&hide_border=true" height="150" alt="languages" />
+</div>
 
-### 3. 访问你的网站 | Enjoy
+<br>
 
-打开浏览器，访问 https://<用户名>.github.io，即可查看你的个人主页
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
-
-## License
-本项目基于 MIT 许可协议，你可以自由使用和修改此模板。 Yixin Huang 2025年2月7号
-
-Copyright Yixin Huang, 2025. Licensed under an MIT license. You can copy and mess with this template.
+<div align="center">
+  <small>Let's build the future of Embodied AI together! 🚀</small>
+</div>
