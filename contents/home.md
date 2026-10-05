@@ -12,11 +12,6 @@ I am a member of the **General Embodied Intelligence Center** (通用具身智�
 - **Selected coursework:** Data Structures and Algorithms, Machine Learning, Computer Vision, Natural Language Processing, and Intelligent Robotics.
 - **English:** CET-4: 619; CET-6: 635.
 
-### Recent Updates
-- **2026:** Received the **National Scholarship** and **SYSU First-Class Scholarship** for the second consecutive year (2025 and 2026).
-- **2026:** Co-authored two papers submitted to **ICLR 2027**, as the fourth and sixth author. See [Publications](#publications).
-- **Jan. – May 2026:** Robotics control algorithm intern with **THMOS, Tsinghua University's robot soccer team**.
-
 ### Research Interests
 - **Embodied AI:** Vision-Language Models (VLMs), Vision-Language-Action (VLA) models, and task understanding.
 - **Robot Learning & Control:** Reinforcement learning, humanoid and quadruped locomotion, and whole-body control (WBC).
