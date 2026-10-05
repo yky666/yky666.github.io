@@ -54,6 +54,14 @@ section .main-body{
     line-height: 2.4rem;
 }
 
+section[id] {
+    scroll-margin-top: 90px;
+}
+
+section .main-body strong {
+    font-weight: 700;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
@@ -106,6 +114,23 @@ section .main-body{
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container.px-5 {
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+    }
+
+    section .main-body {
+        font-size: 1.05rem;
+        line-height: 1.8rem;
+    }
+
+    section header h2 {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
     }
 }
 
